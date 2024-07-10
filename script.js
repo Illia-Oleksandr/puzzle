@@ -4,25 +4,25 @@ const questionText = document.getElementById('question-text');
 const revealButton = document.getElementById('reveal-button');
 
 const imagePieces = [];
-const imageUrl = 'beautiful-smart-girl.jpg'; // Вставте URL вашого зображення
+const imageUrl = 'beautiful-smart-girl.jpg';
 const questions = [
-    "Яка твоя улюблена вправа або спортивний захід?",
-    "Як ти підтримуєш мотивацію в досягненні своїх цілей?",
-    "Який твій улюблений фільм?",
-    "Яка твоя улюблена страва для сніданку?",
-    "Як ти підтримуєш здоровий спосіб життя?",
-    "Що ти найбільше любиш у своїй роботі чи навчанні?",
-    "Як ти справляєшся з конфліктами?",
-    "Як ти відчуваєш себе під час публічних виступів?",
-    "Якби ти могла володіти будь-яким супергеройським умінням, що б це було?",
-    "Як ти розслабляєшся після важкого дня?",
-    "Що ти найбільше любиш у своєму місті?",
-    "Який твій улюблений вид мистецтва?",
-    "Яка твоя улюблена порода собак (або кішок)?",
-    "Який твій улюблений колір і чому?",
-    "Що тебе найбільше надихає?",
-    "Якби ти могла змінити щось у світі, що б це було?"
-]; // Приклади запитань
+    "What is your favorite exercise or sport?",
+    "How do you stay motivated in achieving your goals?",
+    "What is your favorite movie?",
+    "What is your favorite breakfast food?",
+    "How do you maintain a healthy lifestyle?",
+    "What do you like most about your job?",
+    "How do you handle conflicts?",
+    "How do you get inspired for new ideas?",
+    "What is your favorite quote about life?",
+    "How do you relax after a hard day?",
+    "What do you like most about your city?",
+    "What is your favorite type of art?",
+    "What is your favorite breed of dog (or cat)?",
+    "What is your favorite color and why?",
+    "What inspires you the most?",
+    "If you could change one thing in the world, what would it be?"
+];
 let currentPiece;
 
 for (let i = 0; i < 16; i++) {
